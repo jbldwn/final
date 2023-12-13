@@ -1,0 +1,64 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "title": "Single Serve & Carafe Coffee Maker",
+            "price" : 199.99,
+            "location" : "images/K-Duo-SE-Single-Serve-Carafe-Coffee-Maker_5000362326_swatch.webp"
+        },
+        {
+            "id": 2,
+            "title": "Keurig® K-Select® Coffee Maker",
+            "price" : 79.99,
+            "location" : "images/K-Select-Coffee-Maker_5000359893_swatch.webp"
+        },
+        {
+            "id": 3,
+            "title": "K-Mini® Single Serve Coffee Maker",
+            "price" : 59.99,
+            "location" : "images/K-Mini-Coffee-Maker_5000200237_swatch.webp"
+        },
+        {
+            "id": 4,
+            "title": "K-Café® SMART Single Serve Coffee Maker",
+            "price" : 124.99,
+            "location" : "images/K-Cafe-SMART-Coffee-Latte-Cappuccino-Maker_5000365485.webp"
+        },
+        {
+            "id": 5,
+            "title": "K-Slim® Single Serve Coffee Maker",
+            "price" : 69.99,
+            "location" : "images/K-Slim-Single-Serve.png"
+        },
+        {
+            "id": 6,
+            "title": "Keurig® K-Elite® Single Serve Coffee Maker",
+            "price" : 118.99,
+            "location" : "images/Keurig-K-Elite-Single-Serv.png"
+        },
+        {
+            "id": 7,
+            "title": "K-Duo Plus® Single Serve & Carafe Coffee Maker",
+            "price" : 149.99,
+            "location" : "images/K-Duo-Plus-Single-Serve-Carafe-Coffee-Maker_5000363818.webp"
+        },
+        {
+            "id": 8,
+            "title": "K-Iced™ Single Serve Coffee Maker",
+            "price" : 49.99,
+            "location" : "images/k-iced-single-serve-coffee-maker_5000371871.webp"
+        },
+        {
+            "id": 9,
+            "title": "Keurig® K-Compact® Coffee Maker - White",
+            "price" : 50.00,
+            "location" : "images/Keurig-K-Compact-Coffee-Maker-White.png"
+        },
+        {
+            "id": 10,
+            "title": "Keurig® K-Classic® Coffee Maker",
+            "price" : 89.99,
+            "location" : "images/K50-Coffee-Maker_5000204441.webp"
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+nav {
+    background-color: gainsboro;
+
+    .row {
+        padding: 30px 45px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            width: 170px;
+        }
+
+        .search {
+            background-color: white;
+            height: 40px;
+            width: 40%;
+            border: 1px solid darkgray;
+            border-radius: 30px;
+            padding: 0 20px;
+
+            display: flex;
+            align-items: center;
+            justify-content: start;
+
+            color: dimgray;
+
+            i {
+                margin-right: 15px;
+            }
+        }
+
+        .links {
+            width: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+
+            .btn {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                border: 1px solid gainsboro;
+                border-radius: 15px;
+                padding: 10px;
+
+                cursor: pointer;
+
+                .bottom-text {
+                    font-size: 12px;
+                }
+
+                &#logOut {
+                    display: hidden !important;
+                }
+            }
+
+            .btn:hover {
+                background-color: white;
+            }
+
+
+
+        }
+
+
+
+    }
+
+    .subNav {
+        padding: 45px 45px 30px;
+
+        a {
+            text-decoration: none;
+            font-size: 14px;
+            // margin-right: 35px;
+            border-radius: 30px;
+            color: #000;
+            border: solid 1px gainsboro;
+            padding: 15px;
+        }
+
+        a:hover {
+            background-color: #fff;
+        }
+    }
+
+    .bar {
+        background-color: rgb(70, 46, 73);
+        color: #fff;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        .deal {
+            width: 25%;
+            height: 75px;
+            margin: 15px 0;
+            font-size: 12px;
+
+            display: flex;
+            align-items: start;
+            justify-content: space-evenly;
+
+            text-align: center;
+
+            font-size: 11px;
+            line-height: 22px;
+            font-weight: bold;
+
+            border-right: 1px solid white;
+
+            .end {
+                font-size: 10px;
+            }
+
+            a {
+                text-decoration: underline;
+                color: #fff;
+                font-size: 10px;
+            }
+        }
+    }
+}

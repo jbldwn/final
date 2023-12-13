@@ -1,0 +1,159 @@
+footer {
+    .bar {
+        background-color: rgb(70, 46, 73);
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 30px 45px;
+
+        .locate {
+            width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            span {
+                font-size: 15px;
+            }
+        }
+
+        .socials {
+            width: 15%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-right: 120px;
+
+        }
+
+        * {
+            color: #ffffff
+        }
+    }
+
+    .middle {
+        padding: 15px;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+
+        .subSec {
+            width: 25%;
+            display: flex;
+            // align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+
+            margin-bottom: 30px;
+
+            h1 {
+                font-family: sans-serif;
+                font-weight: lighter;
+                font-size: 24px;
+            }
+
+            a {
+                text-decoration: none;
+                color: #000;
+                margin-bottom: 10px;
+                font-weight: lighter;
+                font-size: 14px;
+                flex-wrap: nowrap;
+            }
+        }
+
+        .first {
+            width: 25%;
+
+            .subSec {
+                width: 100%;
+            }
+        }
+
+        .mailList {
+            width: 25%;
+            font-size: 14px;
+
+            .subSec {
+                width: 100%;
+            }
+
+            h1 {
+                font-family: sans-serif;
+                font-weight: lighter;
+                font-size: 24px;
+            }
+
+            .emailMe {
+                width: 85%;
+                display: flex;
+                align-items: center;
+
+                .email {
+                    display: flex;
+                    align-items: center;
+                    width: 70%;
+                    // height: 50px;
+                    padding: 10px 15px;
+                    color: dimgrey;
+                    border: 1px solid darkgray;
+                }
+
+                .enter {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    width: 30%;
+                    padding: 10px 15px;
+                    // height: 50px;
+                    color: #000;
+                    border: 2px solid goldenrod;
+                }
+
+                .enter:hover {
+                    background-color: goldenrod;
+                }
+            }
+        }
+    }
+
+    .bottom {
+        border-top: solid 1px dimgrey;
+        height: 50px;
+        padding: 15px 0;
+
+        font-style: italic;
+        font-size: 12px;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .row {
+            width: 50%;
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+
+            margin-bottom: 50px;
+
+            .group {
+                width: 300px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                p {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .lastLine {
+            padding-bottom: 100px;
+        }
+    }
+}
