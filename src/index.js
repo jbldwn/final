@@ -75,6 +75,14 @@ export function loginListener() {
     });
 }
 
+export function updateCartCount() {
+    // if()
+    let login = $("#login");
+    login[0].style.display = "none";
+    let logout = $("#logOut");
+    logout[0].style.display = "block";
+}
+
 //sign out account
 function logoutListener() {
     $("#logOut").on("click", (e) => {

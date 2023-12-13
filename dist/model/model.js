@@ -121,6 +121,24 @@ export function addToCart(prodID) {
     if (cartDupe == false) {
         cart.push(cartItem);
     }
+
+    //update cartCount
+    let countDisplay = $("#cartCount");
+
+    if (cart == "") {
+        countDisplay[0].style.display = "none";
+
+    } else {
+        countDisplay[0].style.display = "block";
+        let count = 0;
+
+        for (let i = 0; i < cart.length; i++) {
+            count += 1;
+
+        }
+        countDisplay[0].innerHTML = count;
+
+    }
 }
 
 export function emptyCart() {
