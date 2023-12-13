@@ -3,7 +3,7 @@ Your project must have a create account and log-in section. There should be an i
 You must show a cart icon in the top right-hand corner that shows the count of how many coffee makers you have purchased. When clicked on your cart page must show all the coffee makers you have clicked the buy now button on. Your shopping cart page must have an empty cart button that will empty all products.
 
 URL:
-weblink
+https://in-info-web4.informatics.iupui.edu/~jbldwn/N315/final/dist/
 
 GIT:
-gitlink
+https://github.com/jbldwn/final
